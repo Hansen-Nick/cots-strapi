@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_3_videos",
+  "info": {
+    "singularName": "ws-3-video",
+    "pluralName": "ws-3-videos",
+    "displayName": "WS3 Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "st_1_videos",
+  "info": {
+    "singularName": "st-1-video",
+    "pluralName": "st-1-videos",
+    "displayName": "ST1 Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

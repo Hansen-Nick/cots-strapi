@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_8_up_documents",
+  "info": {
+    "singularName": "ws-8-up-document",
+    "pluralName": "ws-8-up-documents",
+    "displayName": "WS8UP Document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

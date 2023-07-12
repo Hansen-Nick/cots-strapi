@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pb_videos",
+  "info": {
+    "singularName": "pb-video",
+    "pluralName": "pb-videos",
+    "displayName": "PB Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

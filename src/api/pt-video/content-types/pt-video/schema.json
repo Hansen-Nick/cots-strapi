@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pt_videos",
+  "info": {
+    "singularName": "pt-video",
+    "pluralName": "pt-videos",
+    "displayName": "PT Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

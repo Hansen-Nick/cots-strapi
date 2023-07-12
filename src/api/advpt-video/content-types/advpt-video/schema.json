@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advpt_videos",
+  "info": {
+    "singularName": "advpt-video",
+    "pluralName": "advpt-videos",
+    "displayName": "ADVPT Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

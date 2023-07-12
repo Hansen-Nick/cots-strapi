@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_2_videos",
+  "info": {
+    "singularName": "ws-2-video",
+    "pluralName": "ws-2-videos",
+    "displayName": "WS2 Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

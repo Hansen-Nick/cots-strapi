@@ -4,7 +4,8 @@
   "info": {
     "singularName": "advpt-2-document",
     "pluralName": "advpt-2-documents",
-    "displayName": "ADVPT2 Document"
+    "displayName": "ADVPT Document",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,15 +17,15 @@
       "required": true
     },
     "Document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }

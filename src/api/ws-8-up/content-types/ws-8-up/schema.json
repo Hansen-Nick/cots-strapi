@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_8_ups",
+  "info": {
+    "singularName": "ws-8-up",
+    "pluralName": "ws-8-ups",
+    "displayName": "WS8UP Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}

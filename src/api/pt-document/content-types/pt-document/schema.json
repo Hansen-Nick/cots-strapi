@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pt_documents",
+  "info": {
+    "singularName": "pt-document",
+    "pluralName": "pt-documents",
+    "displayName": "PT Document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

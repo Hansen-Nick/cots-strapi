@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "st_2_videos",
+  "info": {
+    "singularName": "st-2-video",
+    "pluralName": "st-2-videos",
+    "displayName": "ST2 Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "embedId": {
+      "type": "string"
+    }
+  }
+}
