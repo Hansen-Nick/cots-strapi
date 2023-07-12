@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pods",
+  "info": {
+    "singularName": "pod",
+    "pluralName": "pods",
+    "displayName": "PODS Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
