@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advpt_2_documents",
+  "info": {
+    "singularName": "advpt-2-document",
+    "pluralName": "advpt-2-documents",
+    "displayName": "ADVPT2 Document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

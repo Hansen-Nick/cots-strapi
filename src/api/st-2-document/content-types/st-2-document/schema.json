@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "st_2_documents",
+  "info": {
+    "singularName": "st-2-document",
+    "pluralName": "st-2-documents",
+    "displayName": "ST2 Document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

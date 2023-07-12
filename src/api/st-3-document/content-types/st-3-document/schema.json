@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "st_3_documents",
+  "info": {
+    "singularName": "st-3-document",
+    "pluralName": "st-3-documents",
+    "displayName": "ST3 Document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

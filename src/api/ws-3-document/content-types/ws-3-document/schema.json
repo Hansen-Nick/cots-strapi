@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_3_documents",
+  "info": {
+    "singularName": "ws-3-document",
+    "pluralName": "ws-3-documents",
+    "displayName": "WS3 Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

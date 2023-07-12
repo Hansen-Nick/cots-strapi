@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_2_documents",
+  "info": {
+    "singularName": "ws-2-document",
+    "pluralName": "ws-2-documents",
+    "displayName": "WS2 Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

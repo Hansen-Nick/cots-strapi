@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ws_1_documents",
+  "info": {
+    "singularName": "ws-1-document",
+    "pluralName": "ws-1-documents",
+    "displayName": "WS1 Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

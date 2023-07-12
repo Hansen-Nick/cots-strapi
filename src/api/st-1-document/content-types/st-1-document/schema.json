@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "st_1_documents",
+  "info": {
+    "singularName": "st-1-document",
+    "pluralName": "st-1-documents",
+    "displayName": "ST1 Document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Document": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
