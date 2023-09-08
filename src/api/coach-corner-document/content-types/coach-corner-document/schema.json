@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coach_corner_documents",
+  "info": {
+    "singularName": "coach-corner-document",
+    "pluralName": "coach-corner-documents",
+    "displayName": "Coachs Corner Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
