@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: env("PGHOST", "viaduct.proxy.rlwy.net"),
+      host: env("PGHOST", "0.0.0.0"),
       port: env.int("PGPORT", 55758),
       database: env("PGDATABASE", "railway"),
       user: env("PGUSER", "postgres"),
